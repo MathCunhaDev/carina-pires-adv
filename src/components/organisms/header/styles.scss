@@ -1,0 +1,44 @@
+.header {
+  height: 80px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: backdrop-filter 0.2s ease;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.scrolled {
+  backdrop-filter: blur(5px);
+}
+
+.header-logo {
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header-item {
+  a {
+    color: #001734;
+    text-decoration: none;
+  }
+}

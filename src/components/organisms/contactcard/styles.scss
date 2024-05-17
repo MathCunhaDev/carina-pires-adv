@@ -1,0 +1,104 @@
+.contact-card {
+  width: 100%;
+  background: #f6f6f6;
+
+  &-container {
+    width: 90%;
+    height: 500px;
+    margin: 0 5%;
+    padding: 60px 0;
+    display: flex;
+    column-gap: 40px;
+  }
+
+  &-left {
+    width: 50%;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    background: white;
+  }
+
+  &-right {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 25px;
+    position: relative;
+  }
+
+  &-right-text {
+    color: white;
+  }
+
+  &-right-image {
+    height: 500px;
+    background-image: url("../../../../public/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px);
+  }
+
+  &-right-wrapper {
+    img {
+      width: 400px;
+      height: 100px;
+      object-fit: cover;
+      margin-left: -40px;
+    }
+  }
+
+  &-right-container {
+    width: 100%;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    button {
+      max-width: 300px;
+    }
+  }
+
+  &-right-text {
+    font-size: 2vw;
+    margin-top: 20px;
+    font-family: var(--inter);
+  }
+
+  &-title {
+    font-size: 2.4vw;
+  }
+
+  &-text {
+    line-height: 120%;
+  }
+
+  &-bottom {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20px;
+    background: #f4f3eb;
+    padding: 40px;
+    border-radius: 25px;
+    max-width: 26vw;
+
+    &-wrapper {
+    }
+
+    &-title {
+      font-size: 1.4vw;
+      margin-bottom: 20px;
+    }
+
+    &-text {
+      font-size: 1vw;
+    }
+  }
+}
