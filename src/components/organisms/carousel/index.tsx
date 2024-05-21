@@ -28,8 +28,18 @@ export function Carousel() {
         arrows={true}
         vertical={true}
         infinite={true}
-        // centerMode={true}
+        centerMode={true}
         slidesToShow={1}
+        responsive={[
+          {
+            breakpoint: 768,
+            settings: {
+              vertical: false,
+              arrows: false,
+              dots: true,
+            },
+          },
+        ]}
       >
         {items.map((item: any, index: number) => (
           <section className="carousel-item" key={index}>

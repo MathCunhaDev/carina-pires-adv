@@ -1,3 +1,5 @@
+@import "../../../common/theme/mixins.scss";
+
 .contact-card {
   width: 100%;
   background: #f6f6f6;
@@ -78,6 +80,7 @@
 
   &-text {
     line-height: 120%;
+    font-family: var(--inter);
   }
 
   &-bottom {
@@ -99,6 +102,76 @@
 
     &-text {
       font-size: 1vw;
+    }
+  }
+}
+
+@include respond-to(medium) {
+  .contact-card {
+    &-container {
+      height: unset;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    &-title {
+      font-size: 32px;
+    }
+
+    &-text {
+      font-size: 16px;
+      margin: 20px 0;
+    }
+
+    &-left {
+      width: 100%;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+
+    &-right {
+      width: 100%;
+    }
+
+    &-right-image {
+      height: 380px;
+    }
+
+    &-right-container {
+      height: 380px;
+    }
+
+    &-right-text {
+      font-size: 16px;
+    }
+
+    &-right-wrapper {
+      img {
+        width: 100%;
+        margin-left: unset;
+      }
+    }
+
+    &-right-container {
+      padding: 40px;
+    }
+
+    &-bottom {
+      padding: 30px;
+      align-items: center;
+      max-width: unset;
+      flex-direction: column;
+    }
+
+    &-bottom-title {
+      text-align: center;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+
+    &-bottom-text {
+      text-align: center;
+      font-size: 16px;
     }
   }
 }

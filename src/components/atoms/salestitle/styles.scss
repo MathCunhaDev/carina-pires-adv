@@ -1,3 +1,5 @@
+@import "../../../common/theme/mixins.scss";
+
 .sales-title {
   color: black;
   font-size: 4vw;
@@ -5,4 +7,11 @@
   margin: 6vw auto;
   display: block;
   text-align: center;
+}
+
+@include respond-to(medium) {
+  .sales-title {
+    font-size: 32px;
+    margin: 40px 5%;
+  }
 }

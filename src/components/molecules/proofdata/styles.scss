@@ -1,3 +1,5 @@
+@import "../../../common/theme/mixins.scss";
+
 .proof {
   width: 80%;
   margin: 0 auto 80px auto;
@@ -21,5 +23,24 @@
     font-size: 1.5vw;
     color: #858585;
     font-family: var(--inter);
+  }
+}
+
+@include respond-to(medium) {
+  .proof {
+    flex-direction: column;
+    row-gap: 20px;
+
+    &-item {
+    }
+
+    &-title {
+      font-size: 32px;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 120%;
+    }
   }
 }

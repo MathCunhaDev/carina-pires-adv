@@ -1,3 +1,5 @@
+@import "./mixins.scss";
+
 .hero-container {
   margin: 12vh 5%;
   display: flex;
@@ -6,5 +8,16 @@
 
   > section {
     width: 50%;
+  }
+}
+
+@include respond-to(medium) {
+  .hero-container {
+    margin: 12vh 0 5vh 0;
+    flex-direction: column;
+
+    > section {
+      width: 100%;
+    }
   }
 }

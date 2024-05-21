@@ -1,18 +1,42 @@
+@import "../../../common/theme/mixins.scss";
+
 .hero {
   height: 76vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
+  &-title {
+    font-size: 2.8vw;
+    font-family: var(--inter);
+  }
+
+  &-text {
+    font-size: 1.4vw;
+    margin: 40px 0;
+    font-family: var(--inter);
+  }
 }
 
-.hero-title {
-  font-size: 2.8vw;
-  font-family: var(--cinzel);
-}
+@include respond-to(medium) {
+  .hero {
+    height: unset;
+    display: flex;
+    align-items: center;
+    margin: 30px 5%;
 
-.hero-text {
-  font-size: 1.4vw;
-  margin: 50px 0;
-  font-family: var(--inter);
+    &-title {
+      font-size: 32px;
+      text-align: center;
+      margin: 0 5%;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    &-text {
+      font-size: 16px;
+      text-align: center;
+      margin: 30px 5%;
+    }
+  }
 }
