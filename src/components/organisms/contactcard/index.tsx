@@ -1,4 +1,4 @@
-import { ClockCircleOutlined, MessageFilled } from "@ant-design/icons";
+import { MessageFilled } from "@ant-design/icons";
 import { ContactButton } from "@/components/atoms";
 import Logo from "/public/logo-bold-branco-svg.svg";
 import Image from "next/image";
@@ -10,16 +10,19 @@ export function ContactCard() {
       <section className="contact-card-container">
         <section className="contact-card-left">
           <h2 className="contact-card-title">
-            Por que é importante agir rápido?
+            Um Hub Jurídico Pensado Inteiramente para Você
           </h2>
           <article className="contact-card-text">
-            Seu caso possui um prazo de prescrição de acordo com a legislação
-            Brasileira, o que significa que ele expira em uma determinada data.
-            Por isso, é importante procurar a ajuda de um advogado especializado
-            o mais rápido possível para evitar que o prazo expire e a situação
-            se agrave.
+            Mantenha-se informado com nossas publicações, alertas e boletins
+            sobre os temas jurídicos mais relevantes e atuais. No Carina Pires
+            Advocacia, estamos comprometidos em oferecer a você informações
+            precisas e atualizadas para ajudá-lo a navegar pelas complexidades
+            do direito. Nossa equipe de especialistas dedica-se a analisar as
+            mudanças legislativas, decisões judiciais e tendências jurídicas,
+            garantindo que você esteja sempre à frente e bem preparado para
+            tomar decisões informadas.
           </article>
-          <section className="contact-card-bottom">
+          {/* <section className="contact-card-bottom">
             <ClockCircleOutlined style={{ fontSize: "30px" }} />
             <section className="contact-card-bottom-wrapper">
               <h3 className="contact-card-bottom-title">
@@ -29,7 +32,7 @@ export function ContactCard() {
                 Dont give up your rights. Let us help you file your case today.
               </p>
             </section>
-          </section>
+          </section> */}
         </section>
         <section className="contact-card-right">
           <section className="contact-card-right-image"></section>

@@ -18,9 +18,9 @@
     padding: 80px 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border-radius: 25px;
     background: white;
+    row-gap: 20px;
   }
 
   &-right {

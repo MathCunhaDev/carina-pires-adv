@@ -1,10 +1,11 @@
 @import "../../../common/theme/mixins.scss";
 
 .proof {
-  width: 80%;
+  width: 90%;
   margin: 0 auto 80px auto;
   display: flex;
   justify-content: space-between;
+  column-gap: 20px;
 
   &-item {
     display: flex;

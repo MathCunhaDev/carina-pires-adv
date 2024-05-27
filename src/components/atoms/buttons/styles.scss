@@ -8,7 +8,6 @@
 
   .contact-button-text {
     color: white;
-    text-decoration: none;
   }
 }
 
@@ -36,13 +35,14 @@
   border: none;
   cursor: pointer;
   border: 1px solid white;
-}
 
-.contact-button-icon {
-  svg {
-    fill: white;
+  a {
+    text-decoration: none;
   }
-}
 
-.contact-button-text {
+  &-icon {
+    svg {
+      fill: white;
+    }
+  }
 }
