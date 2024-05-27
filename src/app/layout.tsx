@@ -14,7 +14,7 @@ const inter = Inter({
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="pt-BR" className={`${inter.variable}`}>
+    <html lang="pt-BR" className={inter.variable}>
       <body>
         <GoogleAnalytics gaId="G-6DQ5X9MC0Y" />
         <AntdRegistry>{children}</AntdRegistry>

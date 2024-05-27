@@ -25,7 +25,11 @@ export function ContactButton({
       }}
     >
       <span className="contact-button-icon">{icon}</span>
-      <a href="https://wa.me/989288588" className="contact-button-text">
+      <a
+        href="https://wa.me/989288588"
+        target="_blank"
+        className="contact-button-text"
+      >
         {children}
       </a>
     </button>
