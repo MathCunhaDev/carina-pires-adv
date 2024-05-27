@@ -1,105 +1,109 @@
 @import "../../../common/theme/mixins.scss";
 
 .footer {
-  height: 88vh;
+  height: 700px;
   background: rgb(26 26 26);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
 
-.footer-top {
-  display: grid;
-  grid-template-columns: 40% 1fr 1fr 1fr;
-  gap: 100px;
-  padding-top: 80px;
-  margin: 0 5%;
-}
-
-.footer-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  h3 a {
-    color: white;
-    text-decoration: none;
-    margin-bottom: 30px;
-    display: block;
+  &-top {
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr 1fr;
+    gap: 100px;
+    padding-top: 80px;
+    margin: 0 5%;
   }
 
-  img {
-    width: 200px;
-    height: 70px;
-    object-fit: cover;
-    margin: -20px 0 40px 0;
-  }
-}
+  &-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
-.footer-list {
-  display: flex;
-  flex-direction: column;
-  row-gap: 30px;
+    nav {
+      display: none; //ajustar no futuro
+    }
 
-  a {
-    color: rgb(184, 184, 184);
-    text-decoration: none;
-  }
-}
+    h3 a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 30px;
+      display: block;
+    }
 
-.footer-text {
-  color: white;
-  font-size: 14px;
-  margin-bottom: 40px;
-  font-family: var(--inter);
-  line-height: 140%;
-}
-
-.footer-card {
-  width: 260px;
-  padding: 20px;
-  border-radius: 20px;
-  background: rgb(34 34 34);
-  display: flex;
-  flex-direction: column;
-  row-gap: 20px;
-}
-
-.footer-card-socials {
-  display: flex;
-  justify-content: space-around;
-
-  a {
-    svg {
-      width: 24px;
-      height: 24px;
-      fill: white;
-      z-index: 10;
+    img {
+      width: 200px;
+      height: 70px;
+      object-fit: cover;
+      margin: -20px 0 40px 0;
     }
   }
-}
 
-.footer-card-title {
-  color: white;
-  font-size: 20px;
-  line-height: 120%;
-  font-family: var(--cinzel);
-}
+  &-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 
-.footer-bottom {
-  width: 100vw;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  left: -5vw;
-  position: relative;
-  padding: 15px;
-}
+    a {
+      color: rgb(184, 184, 184);
+      text-decoration: none;
+    }
+  }
 
-.footer-bottom-disclaimer {
-  color: white;
-  text-align: center;
-  padding: 5px;
-  font-size: 12px;
-  font-family: var(--inter);
+  &-text {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-family: var(--inter);
+    line-height: 140%;
+  }
+
+  &-card {
+    width: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgb(34 34 34);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &-card-socials {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: white;
+        z-index: 10;
+      }
+    }
+  }
+
+  &-card-title {
+    color: white;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: var(--cinzel);
+  }
+
+  &-bottom {
+    width: 100vw;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    left: -5vw;
+    position: relative;
+    padding: 15px;
+  }
+
+  &-bottom-disclaimer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-family: var(--inter);
+  }
 }
 
 @include respond-to(medium) {
