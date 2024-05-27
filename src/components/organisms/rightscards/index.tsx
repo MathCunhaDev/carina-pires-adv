@@ -59,6 +59,7 @@ export function RightsCards() {
             key={"footer"}
             type="white"
             icon={<MessageFilled color="#001734" />}
+            eventName="rightsCards"
           >
             Fale com um especialista
           </ContactButton>

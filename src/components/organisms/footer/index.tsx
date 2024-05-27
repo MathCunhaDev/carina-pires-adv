@@ -31,7 +31,12 @@ export function Footer() {
             <p className="footer-card-title">
               Entre em contato conosco para entendermos como podemos ajudar
             </p>
-            <ContactButton key={"footer"} type="blue" icon={<MessageFilled />}>
+            <ContactButton
+              key={"footer"}
+              type="blue"
+              icon={<MessageFilled />}
+              eventName="footer"
+            >
               Entre em contato
             </ContactButton>
             <section className="footer-card-socials">

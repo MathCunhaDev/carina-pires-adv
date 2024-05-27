@@ -44,7 +44,12 @@ export function ContactCard() {
                 Entre em contato hoje e veremos como podemos te ajudar.
               </p>
             </section>
-            <ContactButton key={"footer"} type="blue" icon={<MessageFilled />}>
+            <ContactButton
+              key={"footer"}
+              type="blue"
+              icon={<MessageFilled />}
+              eventName="contactCard"
+            >
               Fale com um especialista
             </ContactButton>
           </section>
