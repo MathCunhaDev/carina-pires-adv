@@ -30,8 +30,10 @@ export function RightsCards() {
             Pronto para começar?
           </h4>
           <p className="rights-cards-bottom-last-text">
-            Entenda como podemos te ajudar, entre em contato para uma avaliação
-            gratuita do seu caso.
+            Valorizamos um atendimento personalizado e de qualidade. Nossa
+            equipe está disponível para atender suas necessidades jurídicas de
+            forma dedicada e profissional. Entre em contato conosco para agendar
+            uma consulta e descobrir como podemos ajudar .
           </p>
           <ContactButton
             key={"footer"}

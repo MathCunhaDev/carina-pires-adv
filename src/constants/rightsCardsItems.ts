@@ -12,7 +12,7 @@ export const rightsCardsItems: IRightsCardsItems[] = [
   {
     image: Image2,
     alt: "Imagem de calculadora com custo zero",
-    title: "O suporte necessário",
-    text: "Sabemos que quando você está numa situação difícil, pode ser desesperador. Estamos aqui para te orientar e fornecer o suporte necessário para que você possa se concentrar no que realmente importa. Com a nossa ajuda, você pode enfrentar os desafios com mais confiança e tranquilidade.",
+    title: "Suporte Especializado",
+    text: "Enfrentar uma situação jurídica pode ser desafiador e estressante. Oferecemos suporte jurídico especializado para que você possa lidar com seus problemas com tranquilidade e segurança. Nosso compromisso é fornecer orientação clara e eficaz, garantindo que seus interesses estejam sempre protegidos.",
   },
 ];
