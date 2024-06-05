@@ -1,0 +1,27 @@
+import { Metadata } from "next";
+import { laborCardsData } from "@/constants/laborCardsData";
+import * as Organisms from "@/components/organisms";
+import * as Atoms from "@/components/atoms";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Trabalhista - Carina Pires Advocacia",
+    template: "%s - Carina Pires Advocacia",
+  },
+  description: "Trabalhista - Carina Pires Advocacia",
+  keywords:
+    "advocacia trabalhista, advogado trabalhista, direito trabalhista, reclamatória trabalhista, consultoria trabalhista, assédio no trabalho, demissão por justa causa, direitos do trabalhador, negociação coletiva, acidente de trabalho",
+};
+
+export default function Trabalhista() {
+  return (
+    <>
+      <Atoms.MainTitle>Trabalhista</Atoms.MainTitle>
+      <Atoms.SubTitle>
+        Conheça todos os nossos casos trabalhistas
+      </Atoms.SubTitle>
+      <Organisms.CaseCards cards={laborCardsData} />
+      <Organisms.ContactCard />
+    </>
+  );
+}

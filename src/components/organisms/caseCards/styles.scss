@@ -1,0 +1,37 @@
+.case-cards {
+  margin: 0 5% 80px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  &-item {
+    width: 280px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 8px 12px 0px rgba(142, 142, 142, 0.1);
+    text-decoration: none;
+  }
+
+  &-title {
+    color: #001734;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  &-text {
+    color: #5f5f5f;
+    line-height: 140%;
+    font-family: var(--inter);
+    text-decoration: none;
+  }
+}
