@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "/public/logo-bold-branco-svg.svg";
 import { ContactButton } from "@/components/atoms";
+import { whatWeDoItems } from "@/constants/whatWeDoItems";
 import {
   InstagramFilled,
   LinkedinFilled,
@@ -70,15 +71,11 @@ export function Footer() {
               <Link href={"#"}>Oque fazemos</Link>
             </h3>
             <ul className="footer-list">
-              <li>
-                <Link href={"#"}>Oque fazemos</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Oque fazemos</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Oque fazemos</Link>
-              </li>
+              {whatWeDoItems.map((item, index) => (
+                <li key={index}>
+                  <Link href={item.link}>{item.text}</Link>
+                </li>
+              ))}
             </ul>
           </nav>
         </section>

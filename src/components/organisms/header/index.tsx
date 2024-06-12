@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { CloseOutlined, MenuOutlined, MessageFilled } from "@ant-design/icons";
+import { whatWeDoItems } from "@/constants/whatWeDoItems";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "/public/logo-bold-azul-svg.svg";
@@ -14,23 +15,23 @@ export function Header() {
   return (
     <header className="header">
       <section className="header-left">
-        <Image
-          className="header-logo"
-          src={Logo}
-          alt="Logo Carina Advocacia"
-          title="Logo Carina Advocacia"
-        />
-        <nav role="navigation">
+        <a href="/">
+          <Image
+            className="header-logo"
+            src={Logo}
+            alt="Logo Carina Advocacia"
+            title="Logo Carina Advocacia"
+          />
+        </a>
+        <nav className="header-nav" role="navigation">
+          <h3>Oque fazemos</h3>
           <ul className="header-list">
-            <li className="header-item">
-              <Link href={"#"}>Oque fazemos</Link>
-            </li>
-            <li className="header-item">
-              <Link href={"#"}>Sobre nós</Link>
-            </li>
-            <li className="header-item">
-              <Link href={"#"}>Dúvidas frequentes</Link>
-            </li>
+            {whatWeDoItems.map((item, index) => (
+              <li className="header-list-item" key={index}>
+                <Image src={item.icon} alt={item.text} title={item.text} />
+                <Link href={item.link}>{item.text}</Link>
+              </li>
+            ))}
           </ul>
         </nav>
       </section>
@@ -52,16 +53,14 @@ export function Header() {
       <section className={`header-menu ${isMenuOpen ? "opened" : "closed"}`}>
         <section className="header-menu-left">
           <nav role="navigation">
+            <h3 className="header-menu-item-title">Oque fazemos</h3>
             <ul className="header-list">
-              <li className="header-item">
-                <Link href={"#"}>Oque fazemos</Link>
-              </li>
-              <li className="header-item">
-                <Link href={"#"}>Sobre nós</Link>
-              </li>
-              <li className="header-item">
-                <Link href={"#"}>Dúvidas frequentes</Link>
-              </li>
+              {whatWeDoItems.map((item, index) => (
+                <li className="header-list-item header-menu-item" key={index}>
+                  <Image src={item.icon} alt={item.text} title={item.text} />
+                  <Link href={item.link}>{item.text}</Link>
+                </li>
+              ))}
             </ul>
           </nav>
           <Atoms.ContactButton
