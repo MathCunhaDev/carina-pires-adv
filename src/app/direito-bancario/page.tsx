@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description: "Bancário - Carina Pires Advocacia",
   keywords:
-    "advocacia bancária, advogado bancário, assessoria jurídica bancária, direito bancário, contrato bancário, litígio bancário, consultoria bancária, compliance bancário, direito financeiro, legislação bancária",
+    "advocacia bancária, advogado bancário, assessoria jurídica bancária, direito bancário, contrato bancário, litígio bancário, consultoria bancária, compliance bancário, direito financeiro, legislação bancária, golpe do pix",
 };
 
 export default function Bancario() {
