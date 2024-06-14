@@ -16,8 +16,12 @@ export const metadata: Metadata = {
 export default function Bancario() {
   return (
     <>
-      <Atoms.MainTitle>Bancário</Atoms.MainTitle>
-      <Atoms.SubTitle>Conheça todos os nossos casos bancários</Atoms.SubTitle>
+      <Atoms.MainTitle>
+        Encontre soluções para seus problemas bancários
+      </Atoms.MainTitle>
+      <Atoms.SubTitle>
+        Especialistas em resolver questões bancárias
+      </Atoms.SubTitle>
       <Organisms.CaseCards cards={bankCardsData} />
       <Organisms.ContactCard />
     </>
