@@ -20,6 +20,15 @@
   line-height: 120%;
   display: block;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: black;
+  font-size: 1.4vw;
+  line-height: 120%;
+  display: block;
+  text-align: center;
   margin-bottom: 6vw;
 }
 
@@ -32,5 +41,9 @@
 
   .sub-title {
     font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
   }
 }

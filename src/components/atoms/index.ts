@@ -1,2 +1,2 @@
 export { ContactButton } from "./buttons";
-export { SalesTitle, MainTitle, SubTitle } from "./titles";
+export { SalesTitle, MainTitle, SubTitle, Description } from "./titles";

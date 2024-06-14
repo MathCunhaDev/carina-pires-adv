@@ -1,26 +1,30 @@
 export const carouselHomeItems = [
   {
-    title: "Direito penal",
-    text: "Atendimento em casos de flagrantes, acompanhamentos à Delegacias e demais ógãos públicos, instrução processual, execução,  recursos e muito mais.",
+    title: "Direito criminal",
+    text: "Protegemos seus direitos em todas as fases do processo criminal, garantindo um julgamento justo.",
   },
   {
     title: "Direito bancário",
-    text: "Revisão de contratos bancários de financiamentos e empréstimos; análise de cobranças indevidas e fraudes bancárias, como o golpe do pix.",
+    text: "Atuamos em litígios e negociações, defendendo seus interesses financeiros.",
   },
   {
     title: "Direito de família",
-    text: "Realização de contratos pré-nupciais, união estável, separação de corpos, divórcios, guarda de filhos, regulamentação de visitas, pensão alimentícia, adoção, investigação de paternidade, partilha de bens e inventários.",
+    text: "Auxiliamos na resolução de disputas trabalhistas para empregadores e empregados.",
   },
   {
     title: "Direito imobiliário",
-    text: "Contratos de compra e venda, locações, regularização de imóveis, reintegrações de posse, usucapião, condomínios, incorporações imobiliárias e muito mais.",
+    text: "Aconselhamos nas transações e litígios imobiliários para maior segurança.",
   },
   {
     title: "Direito trabalhista",
-    text: "Rescisões indiretas, assédio moral, horas extras , equiparação salarial, desvios de função e reclamações trabalhistas em geral.",
+    text: "Auxiliamos na resolução de disputas trabalhistas para empregadores e empregados.",
   },
   {
     title: "Direito cível",
-    text: "Indenizações por danos morais e materiais, cobranças, superendividamento, direito do consumidor, execução de títulos extrajudiciais em geral.",
+    text: "Oferecemos suporte em questões civis como contratos, responsabilidades e danos.",
+  },
+  {
+    title: "Direito canábico",
+    text: "Especialistas em regulamentações e legislações, ajudamos com questões jurídicas relacionadas ao uso terapêutico e comercial da cannabis.",
   },
 ];

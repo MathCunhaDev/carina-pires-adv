@@ -8,32 +8,32 @@ import law from "/public/law.svg";
 export const whatWeDoItems = [
   {
     text: "Direito Criminal",
-    link: "/oque-fazemos/criminal",
+    link: "/direito-criminal",
     icon: handcuffs,
   },
   {
     text: "Direito Bancário",
-    link: "/oque-fazemos/bancario",
+    link: "/direito-bancario",
     icon: cash,
   },
   {
     text: "Direito Família",
-    link: "/oque-fazemos/familia",
+    link: "/direito-familia",
     icon: family,
   },
   {
     text: "Direito Imobiliário ",
-    link: "/oque-fazemos/imobiliario",
+    link: "/direito-imobiliario",
     icon: house,
   },
   {
     text: "Direito Trabalhista",
-    link: "/oque-fazemos/trabalhista",
+    link: "/direito-trabalhista",
     icon: worker,
   },
   {
     text: "Direito Cível",
-    link: "/oque-fazemos/civel",
+    link: "/direito-civel",
     icon: law,
   },
 ];
