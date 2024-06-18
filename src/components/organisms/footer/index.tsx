@@ -6,8 +6,8 @@ import { whatWeDoItems } from "@/constants/whatWeDoItems";
 import {
   InstagramFilled,
   LinkedinFilled,
-  MessageFilled,
   TikTokFilled,
+  WhatsAppOutlined,
   YoutubeFilled,
 } from "@ant-design/icons";
 import "./styles.scss";
@@ -35,7 +35,7 @@ export function Footer() {
             <ContactButton
               key={"footer"}
               type="blue"
-              icon={<MessageFilled />}
+              icon={<WhatsAppOutlined />}
               eventName="footer"
             >
               Entre em contato

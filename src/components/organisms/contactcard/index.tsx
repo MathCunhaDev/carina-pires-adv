@@ -1,4 +1,4 @@
-import { MessageFilled } from "@ant-design/icons";
+import { WhatsAppOutlined } from "@ant-design/icons";
 import { ContactButton } from "@/components/atoms";
 import Logo from "/public/logo-bold-branco-svg.svg";
 import Image from "next/image";
@@ -22,17 +22,6 @@ export function ContactCard() {
             garantindo que você esteja sempre à frente e bem preparado para
             tomar decisões informadas.
           </article>
-          {/* <section className="contact-card-bottom">
-            <ClockCircleOutlined style={{ fontSize: "30px" }} />
-            <section className="contact-card-bottom-wrapper">
-              <h3 className="contact-card-bottom-title">
-                There is an expiration date on filing a case.
-              </h3>
-              <p className="contact-card-bottom-text">
-                Dont give up your rights. Let us help you file your case today.
-              </p>
-            </section>
-          </section> */}
         </section>
         <section className="contact-card-right">
           <section className="contact-card-right-image"></section>
@@ -50,7 +39,7 @@ export function ContactCard() {
             <ContactButton
               key={"footer"}
               type="blue"
-              icon={<MessageFilled />}
+              icon={<WhatsAppOutlined />}
               eventName="contactCard"
             >
               Fale com um especialista

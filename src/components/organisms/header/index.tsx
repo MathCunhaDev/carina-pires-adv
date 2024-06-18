@@ -1,7 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { CloseOutlined, MenuOutlined, MessageFilled } from "@ant-design/icons";
+import {
+  CloseOutlined,
+  MenuOutlined,
+  WhatsAppOutlined,
+} from "@ant-design/icons";
 import { whatWeDoItems } from "@/constants/whatWeDoItems";
 import Link from "next/link";
 import Image from "next/image";
@@ -38,7 +42,7 @@ export function Header() {
       <section className="header-right">
         <Atoms.ContactButton
           type="blue"
-          icon={<MessageFilled />}
+          icon={<WhatsAppOutlined />}
           eventName="headerDesktop"
         >
           Consulte um especialista
@@ -65,7 +69,7 @@ export function Header() {
           </nav>
           <Atoms.ContactButton
             type="blue"
-            icon={<MessageFilled />}
+            icon={<WhatsAppOutlined />}
             eventName="headerMobile"
           >
             Consulte um especialista
