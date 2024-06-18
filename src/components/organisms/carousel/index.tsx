@@ -22,10 +22,12 @@ export function Carousel() {
         ]}
       >
         {carouselHomeItems.map((item: any, index: number) => (
-          <section className="carousel-item" key={index}>
-            <h2 className="carousel-item-title">{item.title}</h2>
-            <p className="carousel-item-text">{item.text}</p>
-          </section>
+          <a href={item.link} key={index}>
+            <section className="carousel-item">
+              <h2 className="carousel-item-title">{item.title}</h2>
+              <p className="carousel-item-text">{item.text}</p>
+            </section>
+          </a>
         ))}
       </AntdCarousel>
     </section>

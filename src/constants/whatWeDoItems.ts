@@ -18,7 +18,7 @@ export const whatWeDoItems = [
   },
   {
     text: "Direito Família",
-    link: "/direito-familia",
+    link: "/direito-familiar",
     icon: family,
   },
   {
@@ -33,7 +33,7 @@ export const whatWeDoItems = [
   },
   {
     text: "Direito Cível",
-    link: "/direito-civel",
+    link: "/direito-civil",
     icon: law,
   },
 ];

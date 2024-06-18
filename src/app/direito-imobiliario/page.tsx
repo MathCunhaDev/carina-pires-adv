@@ -16,10 +16,17 @@ export const metadata: Metadata = {
 export default function Imobiliario() {
   return (
     <>
-      <Atoms.MainTitle>Imobiliário</Atoms.MainTitle>
+      <Atoms.MainTitle>
+        Advocacia Especializada em Direito Imobiliário
+      </Atoms.MainTitle>
       <Atoms.SubTitle>
-        Conheça todos os nossos casos imobiliários
+        Segurança Jurídica em Transações Imobiliárias
       </Atoms.SubTitle>
+      <Atoms.Description>
+        Oferecemos uma gama completa de serviços imobiliários de alto nível para
+        a realização de transações imobiliárias de pequeno, médio e grande
+        porte.
+      </Atoms.Description>
       <Organisms.CaseCards cards={realEstateCardsData} />
       <Organisms.ContactCard />
     </>

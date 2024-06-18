@@ -24,12 +24,13 @@
 }
 
 .description {
-  color: black;
-  font-size: 1.4vw;
+  color: #5f5f5f;
+  font-size: 14px;
   line-height: 120%;
   display: block;
-  text-align: center;
-  margin-bottom: 6vw;
+  text-align: justify;
+  margin: 40px 5% 6vw 5%;
+  font-family: var(--inter);
 }
 
 @include respond-to(medium) {
@@ -44,6 +45,6 @@
   }
 
   .description {
-    font-size: 16px;
+    margin: 40px 5%;
   }
 }

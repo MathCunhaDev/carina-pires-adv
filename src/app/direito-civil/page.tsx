@@ -16,8 +16,12 @@ export const metadata: Metadata = {
 export default function Civel() {
   return (
     <>
-      <Atoms.MainTitle>Cível</Atoms.MainTitle>
-      <Atoms.SubTitle>Conheça todos os nossos casos civis</Atoms.SubTitle>
+      <Atoms.MainTitle>
+        Advocacia Especializada Em Direito Civil
+      </Atoms.MainTitle>
+      <Atoms.SubTitle>
+        Defendendo Seus Direitos Em Todas As Áreas Do Processo Cível
+      </Atoms.SubTitle>
       <Organisms.CaseCards cards={realEstateCardsData} />
       <Organisms.ContactCard />
     </>

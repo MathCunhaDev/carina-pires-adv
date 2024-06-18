@@ -17,11 +17,15 @@ export default function Bancario() {
   return (
     <>
       <Atoms.MainTitle>
-        Encontre soluções para seus problemas bancários
+        Advocacia Especializada em Direito Bancário
       </Atoms.MainTitle>
-      <Atoms.SubTitle>
-        Especialistas em resolver questões bancárias
-      </Atoms.SubTitle>
+      <Atoms.SubTitle>Protegendo Seus Interesses Financeiros </Atoms.SubTitle>
+      <Atoms.Description>
+        Oferecemos uma ampla gama de serviços para proteger seus interesses
+        financeiros. Com anos de experiência no setor, estamos preparados para
+        lidar com litígios bancários, negociações de dívidas, contratos
+        financeiros e outras questões relacionadas a instituições financeiras.
+      </Atoms.Description>
       <Organisms.CaseCards cards={bankCardsData} />
       <Organisms.ContactCard />
     </>
