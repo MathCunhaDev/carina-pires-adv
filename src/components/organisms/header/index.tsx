@@ -53,7 +53,7 @@ export function Header() {
       <section className={`header-menu ${isMenuOpen ? "opened" : "closed"}`}>
         <section className="header-menu-left">
           <nav role="navigation">
-            <h3 className="header-menu-item-title">Oque fazemos</h3>
+            <h3 className="header-menu-item-title">Áreas de atuação</h3>
             <ul className="header-list">
               {whatWeDoItems.map((item, index) => (
                 <li className="header-list-item header-menu-item" key={index}>

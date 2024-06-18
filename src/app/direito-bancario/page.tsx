@@ -24,7 +24,7 @@ export default function Bancario() {
         Oferecemos uma ampla gama de serviços para proteger seus interesses
         financeiros. Com anos de experiência no setor, estamos preparados para
         lidar com litígios bancários, negociações de dívidas, contratos
-        financeiros e outras questões relacionadas a instituições financeiras.
+        financeiros e outras questões relacionadas a instituições financeiras.
       </Atoms.Description>
       <Organisms.CaseCards cards={bankCardsData} />
       <Organisms.ContactCard />

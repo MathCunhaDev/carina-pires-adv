@@ -4,6 +4,7 @@ import family from "/public/family.svg";
 import house from "/public/house.svg";
 import worker from "/public/worker.svg";
 import law from "/public/law.svg";
+import peace from "/public/peace.svg";
 
 export const whatWeDoItems = [
   {
@@ -35,5 +36,10 @@ export const whatWeDoItems = [
     text: "Direito Cível",
     link: "/direito-civil",
     icon: law,
+  },
+  {
+    text: "Direito Canábico",
+    link: "/direito-canabico",
+    icon: peace,
   },
 ];

@@ -23,17 +23,8 @@ export default function Criminal() {
         Defendendo Seus Direitos em Todas as Fases do Processo Penal
       </Atoms.SubTitle>
       <Atoms.Description>
-        Na Carina Pires Advocacia, nossa missão é proteger seus direitos e
-        garantir um julgamento justo em todas as fases do processo penal. Com
-        anos de experiência e um profundo conhecimento das leis criminais,
-        estamos capacitados para fornecer uma defesa estratégica e dedicada aos
-        nossos clientes. Se você está enfrentando acusações criminais, não
-        precisa enfrentar isso sozinho. Nossa equipe de advogados criminalistas
-        está pronta para atuar rapidamente, assegurando que seus direitos sejam
-        preservados e que você receba uma defesa robusta e personalizada. Entre
-        em contato conosco para uma consulta inicial e descubra como nossa
-        experiência pode fazer a diferença no seu caso. Estamos aqui para
-        defender você com determinaçãoes e integridade.
+        Oferecemos uma ampla gama de serviços especializados em direito penal,
+        garantindo alta performance na sua defesa.
       </Atoms.Description>
       <Organisms.CaseCards cards={criminalCardsData} />
       <Organisms.ContactCard />

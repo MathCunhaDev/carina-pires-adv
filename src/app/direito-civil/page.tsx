@@ -22,6 +22,11 @@ export default function Civel() {
       <Atoms.SubTitle>
         Defendendo Seus Direitos Em Todas As Áreas Do Processo Cível
       </Atoms.SubTitle>
+      <Atoms.Description>
+        Oferecemos uma ampla gama de serviços, sempre buscando resultados e
+        performance de alto nível para a resolução das principais demandas da
+        vida civil.
+      </Atoms.Description>
       <Organisms.CaseCards cards={realEstateCardsData} />
       <Organisms.ContactCard />
     </>

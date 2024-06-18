@@ -16,8 +16,16 @@ export const metadata: Metadata = {
 export default function Familia() {
   return (
     <>
-      <Atoms.MainTitle>Família</Atoms.MainTitle>
-      <Atoms.SubTitle>Conheça todos os nossos casos famíliares</Atoms.SubTitle>
+      <Atoms.MainTitle>
+        Advocacia Especializada em Direito de Família
+      </Atoms.MainTitle>
+      <Atoms.SubTitle>
+        Criando soluções para a vida da sua família
+      </Atoms.SubTitle>
+      <Atoms.Description>
+        Oferecemos uma ampla gama de serviços especializados para a resolução de
+        diversos aspectos da vida familiar, do início ao fim.
+      </Atoms.Description>
       <Organisms.CaseCards cards={realEstateCardsData} />
       <Organisms.ContactCard />
     </>

@@ -16,10 +16,13 @@ export const metadata: Metadata = {
 export default function Trabalhista() {
   return (
     <>
-      <Atoms.MainTitle>Trabalhista</Atoms.MainTitle>
-      <Atoms.SubTitle>
-        Conheça todos os nossos casos trabalhistas
-      </Atoms.SubTitle>
+      <Atoms.MainTitle>
+        Advocacia Especializada em Direito do Trabalho
+      </Atoms.MainTitle>
+      <Atoms.SubTitle>Garantindo seus direitos trabalhistas</Atoms.SubTitle>
+      <Atoms.Description>
+        Oferecemos uma ampla gama de soluções para relações trabalhistas
+      </Atoms.Description>
       <Organisms.CaseCards cards={laborCardsData} />
       <Organisms.ContactCard />
     </>

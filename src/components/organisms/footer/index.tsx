@@ -68,7 +68,7 @@ export function Footer() {
         <section className="footer-section">
           <nav role="navigation">
             <h3>
-              <Link href={"#"}>Oque fazemos</Link>
+              <Link href={"#"}>Áreas de atuação</Link>
             </h3>
             <ul className="footer-list">
               {whatWeDoItems.map((item, index) => (
