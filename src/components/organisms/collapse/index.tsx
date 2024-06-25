@@ -58,7 +58,9 @@ export function Collapse({ items }: ICollapse) {
       <Col md={24} lg={8}>
         <aside role="navigation">
           <Flex vertical>
-            <Atoms.AnchorsTitle>Navegue pelas perguntas</Atoms.AnchorsTitle>
+            <Atoms.AnchorsTitle>
+              Selecione uma das áreas abaixo:
+            </Atoms.AnchorsTitle>
             <Radio.Group
               onChange={(event) => {
                 setVisibleItems(() =>
@@ -121,6 +123,9 @@ export function Collapse({ items }: ICollapse) {
                     }`}
                   >
                     {item.text}
+                    <a href="https://wa.me/989288588" target="_blank">
+                      WhatsApp aqui.
+                    </a>
                   </p>
                 </article>
               ))}

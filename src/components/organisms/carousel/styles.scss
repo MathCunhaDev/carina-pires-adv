@@ -2,7 +2,7 @@
 
 .carousel {
   width: 100%;
-  height: 76vh;
+  height: 60vh;
   margin: 2vh 0 2vh 0;
   background: #ff680a;
   border-radius: 25px;
@@ -11,7 +11,7 @@
   justify-content: center;
 
   &-item {
-    height: 310px;
+    height: 250px;
     padding: 25px;
     background: #ff751f;
     max-width: 400px;
@@ -48,34 +48,31 @@
       border-block-width: 6px 0;
     }
   }
-
   .slick-prev,
   .slick-next {
-    display: block;
-    position: unset !important;
-    transform: rotate(90deg) !important;
+    top: calc(50% - 10px) !important;
   }
 
   .slick-prev {
-    margin: 40px auto;
+    margin: 0 0 0 -50px !important;
   }
 
   .slick-next {
-    margin: 20px auto;
+    margin: 0 -30px 0 0 !important;
   }
 }
 
 @include respond-to(medium) {
   .carousel {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     border-radius: 15px;
     align-items: flex-start;
     padding-top: 25px;
     position: relative;
 
     &-item {
-      height: 340px;
+      height: 250px;
     }
 
     &-item-title {
@@ -100,7 +97,7 @@
 
     .slick-dots {
       left: 0 !important;
-      top: 54vh !important;
+      top: 44vh !important;
       width: 100% !important;
       height: unset !important;
       bottom: unset !important;
