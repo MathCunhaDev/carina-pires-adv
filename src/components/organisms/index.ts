@@ -6,3 +6,4 @@ export { ContactCard } from "./contactcard";
 export { Review } from "./review";
 export { RightsCards } from "./rightscards";
 export { CaseCards } from "./caseCards";
+export { Collapse } from "./collapse";

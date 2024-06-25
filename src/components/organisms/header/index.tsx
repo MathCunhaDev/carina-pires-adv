@@ -27,17 +27,22 @@ export function Header() {
             title="Logo Carina Advocacia"
           />
         </a>
-        <nav className="header-nav" role="navigation">
-          <h3>Oque fazemos</h3>
-          <ul className="header-list">
-            {whatWeDoItems.map((item, index) => (
-              <li className="header-list-item" key={index}>
-                <Image src={item.icon} alt={item.text} title={item.text} />
-                <Link href={item.link}>{item.text}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <section className="header-navigation">
+          <nav role="navigation">
+            <h3>Oque fazemos</h3>
+            <ul className="header-list">
+              {whatWeDoItems.map((item, index) => (
+                <li className="header-list-item" key={index}>
+                  <Image src={item.icon} alt={item.text} title={item.text} />
+                  <Link href={item.link}>{item.text}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <Link className="header-left-link" href="/duvidas-frequentes">
+            Dúvidas frequentes
+          </Link>
+        </section>
       </section>
       <section className="header-right">
         <Atoms.ContactButton
@@ -67,6 +72,9 @@ export function Header() {
               ))}
             </ul>
           </nav>
+          <Link className="header-menu-left-ask" href="/duvidas-frequentes">
+            Dúvidas frequentes
+          </Link>
           <Atoms.ContactButton
             type="blue"
             icon={<WhatsAppOutlined />}

@@ -26,7 +26,16 @@
     column-gap: 40px;
   }
 
-  &-nav {
+  &-left-link {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  &-navigation {
+    gap: 40px;
+    display: flex;
     position: relative;
 
     h3 {
@@ -94,7 +103,7 @@
       font-size: 16px;
       color: #001734;
       text-decoration: none;
-      font-family: "Times New Roman", Times, serif;
+      font-family: var(--inter);
     }
   }
 
@@ -143,10 +152,8 @@
       object-fit: cover;
     }
 
-    &-left {
-      nav {
-        display: none;
-      }
+    &-navigation {
+      display: none;
     }
 
     &-right {
@@ -168,6 +175,10 @@
     }
 
     &-menu-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
       button {
         margin-top: 40px;
       }
@@ -190,6 +201,13 @@
     &-menu-item-title {
       font-size: 20px;
       font-weight: 700;
+    }
+
+    &-menu-left-ask {
+      color: #000;
+      font-size: 20px;
+      text-decoration: none;
+      font-family: "Times New Roman", Times, serif;
     }
   }
 }
