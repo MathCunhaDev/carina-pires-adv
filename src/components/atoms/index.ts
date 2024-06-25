@@ -5,5 +5,7 @@ export {
   SubTitle,
   Description,
   AnchorsTitle,
-} from "./titles";
-export { Container } from "./container";
+  Paragraph,
+  Article,
+} from "./typography";
+export { Container, WrapperMobile, WrapperDesktop } from "./container";

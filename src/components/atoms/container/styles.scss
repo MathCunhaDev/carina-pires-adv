@@ -1,6 +1,26 @@
+@import "../../../common/theme/mixins.scss";
+
 .container {
   width: 90%;
   margin: 0 5%;
   display: block;
   box-sizing: border-box;
+}
+
+.wrapper-mobile {
+  display: none;
+}
+
+.wrapper-desktop {
+  display: block;
+}
+
+@include respond-to(medium) {
+  .wrapper-mobile {
+    display: block;
+  }
+
+  .wrapper-desktop {
+    display: none;
+  }
 }

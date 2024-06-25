@@ -42,6 +42,9 @@ export function Header() {
           <Link className="header-left-link" href="/duvidas-frequentes">
             Dúvidas frequentes
           </Link>
+          <Link className="header-left-link" href="/quem-somos">
+            Quem somos
+          </Link>
         </section>
       </section>
       <section className="header-right">
@@ -74,6 +77,9 @@ export function Header() {
           </nav>
           <Link className="header-menu-left-ask" href="/duvidas-frequentes">
             Dúvidas frequentes
+          </Link>
+          <Link className="header-menu-left-who" href="/quem-somos">
+            Quem somos
           </Link>
           <Atoms.ContactButton
             type="blue"

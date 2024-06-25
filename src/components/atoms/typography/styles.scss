@@ -43,6 +43,19 @@
   font-family: var(--inter);
 }
 
+.paragraph {
+  color: #001734;
+  font-size: 16px;
+  line-height: 120%;
+  display: block;
+  font-family: var(--inter);
+  text-align: justify;
+}
+
+.article {
+  margin: 60px 0;
+}
+
 @include respond-to(medium) {
   .sales-title,
   .main-title {
