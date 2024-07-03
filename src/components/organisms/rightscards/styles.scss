@@ -11,7 +11,7 @@
   &-top-text {
     font-size: 18px;
     margin: 20px 0 40px 0;
-    font-family: var(--inter);
+    font-family: var(--dmsans);
   }
   &-bottom {
     display: flex;
@@ -42,7 +42,7 @@
   &-item-text {
     padding: 0 8%;
     line-height: 140%;
-    font-family: var(--inter);
+    font-family: var(--dmsans);
     text-align: justify;
   }
   &-bottom-last {
@@ -54,7 +54,7 @@
     border-radius: 15px;
     border: 1px solid #ebebeb;
     box-shadow: 0px 8px 12px 0px rgba(142, 142, 142, 0.1);
-    background-color: #ff680a;
+    background-color: #001734;
     padding: 40px 4%;
     box-sizing: border-box;
 
@@ -74,7 +74,7 @@
   &-bottom-last-text {
     color: white;
     line-height: 120%;
-    font-family: var(--inter);
+    font-family: var(--dmsans);
     text-align: justify;
   }
 }

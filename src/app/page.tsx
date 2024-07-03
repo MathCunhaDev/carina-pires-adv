@@ -19,12 +19,10 @@ export default function Home() {
       <section className="hero-container">
         <Organisms.Hero
           key={"hero"}
-          title="Defendendo seus direitos, protegendo seu futuro."
+          title="Um hub jurídico completo, pensado para você."
         >
-          Entendemos que cada caso é único e merece atenção personalizada. Somos
-          um escritório de advocacia especializado com visão 360º e comprometido
-          em oferecer soluções jurídicas eficazes e acessíveis para você e sua
-          família em todas as etapas da sua vida.
+          Especializados e com uma visão 360°, estamos comprometidos em oferecer
+          as melhores soluções jurídicas.
         </Organisms.Hero>
         <Organisms.Carousel />
       </section>

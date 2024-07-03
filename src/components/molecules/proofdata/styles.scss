@@ -14,16 +14,17 @@
   }
 
   &-title {
-    font-size: 5.8vw;
+    font-size: 5vw;
     text-align: center;
     color: #001734;
+    font-family: var(--marcellus);
   }
 
   &-text {
     text-align: justify;
     font-size: 1.5vw;
     color: #858585;
-    font-family: var(--inter);
+    font-family: var(--dmsans);
   }
 }
 

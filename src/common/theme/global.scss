@@ -1,11 +1,12 @@
 @import "./mixins.scss";
 
 .hero-container {
-  margin: 5vh 5%;
+  padding: 5vh 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: 80px;
+  background: #001734;
 
   > section {
     width: 50%;

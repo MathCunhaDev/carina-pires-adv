@@ -21,7 +21,7 @@
   display: block;
   text-align: center;
   margin-bottom: 20px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--marcellus);
 }
 
 .description {
@@ -31,7 +31,7 @@
   display: block;
   text-align: center;
   margin: 40px 5% 6vw 5%;
-  font-family: var(--inter);
+  font-family: var(--dmsans);
 }
 
 .anchors-title {
@@ -40,7 +40,7 @@
   line-height: 120%;
   display: block;
   margin: 20px 0;
-  font-family: var(--inter);
+  font-family: var(--dmsans);
 }
 
 .paragraph {
@@ -48,7 +48,7 @@
   font-size: 16px;
   line-height: 120%;
   display: block;
-  font-family: var(--inter);
+  font-family: var(--dmsans);
   text-align: justify;
 }
 

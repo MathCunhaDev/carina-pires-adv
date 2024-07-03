@@ -29,7 +29,7 @@
   &-item-title {
     font-size: 24px;
     color: #001734;
-    font-family: "Times New Roman", Times, serif;
+    font-family: var(--marcellus);
   }
 
   &-item-icon {
@@ -43,7 +43,7 @@
     max-height: 0;
     overflow: hidden;
     font-size: 16px;
-    font-family: var(--inter);
+    font-family: var(--dmsans);
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out,
       margin-top 0.3s ease-out;
 
@@ -65,17 +65,17 @@
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 
   svg {
-    fill: #ff680a;
+    fill: #001734;
   }
 }
 
 .ant-radio-wrapper-checked {
   span {
-    color: #ff680a;
+    color: #001734;
   }
   .ant-radio-inner {
-    border: 1px solid #ff680a !important;
-    background-color: #ff680a !important;
+    border: 1px solid #001734 !important;
+    background-color: #001734 !important;
   }
 }
 
@@ -86,13 +86,13 @@
 
   &:hover {
     .ant-radio-inner {
-      border-color: #ff680a !important;
+      border-color: #001734 !important;
     }
   }
 }
 
 .ant-anchor-ink {
-  background-color: #ff680a !important;
+  background-color: #001734 !important;
 }
 
 .ant-anchor-link-title {
