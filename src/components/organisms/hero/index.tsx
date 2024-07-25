@@ -12,7 +12,11 @@ export function Hero({ title, children }: IHero) {
     <section className="hero">
       <h1 className="hero-title">{title}</h1>
       <p className="hero-text">{children}</p>
-      <ContactButton type="white" icon={<WhatsAppOutlined />} eventName="hero">
+      <ContactButton
+        type="white"
+        icon={<WhatsAppOutlined style={{ color: "#001734" }} />}
+        eventName="hero"
+      >
         Consulte um especialista
       </ContactButton>
     </section>

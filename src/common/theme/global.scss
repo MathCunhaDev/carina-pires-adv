@@ -32,7 +32,8 @@
 
 @include respond-to(medium) {
   .hero-container {
-    margin: 2vh 0 5vh 0;
+    padding: unset;
+    margin: 0 0 5vh 0;
     flex-direction: column;
 
     > section {

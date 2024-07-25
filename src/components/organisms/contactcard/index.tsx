@@ -39,7 +39,7 @@ export function ContactCard() {
             <ContactButton
               key={"footer"}
               type="blue"
-              icon={<WhatsAppOutlined />}
+              icon={<WhatsAppOutlined style={{ color: "white" }} />}
               eventName="contactCard"
             >
               Fale com um especialista

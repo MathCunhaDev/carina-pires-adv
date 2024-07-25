@@ -1,6 +1,6 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { rightsCardsItems } from "@/constants/rightsCardsItems";
-import { MessageFilled } from "@ant-design/icons";
+import { WhatsAppOutlined } from "@ant-design/icons";
 import { ContactButton } from "@/components/atoms";
 import Image from "next/image";
 
@@ -38,7 +38,7 @@ export function RightsCards() {
           <ContactButton
             key={"footer"}
             type="white"
-            icon={<MessageFilled color="#001734" />}
+            icon={<WhatsAppOutlined />}
             eventName="rightsCards"
           >
             Fale com um especialista

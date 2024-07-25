@@ -16,20 +16,23 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <section className="hero-container">
-        <Organisms.Hero
-          key={"hero"}
-          title="Um hub jurídico completo, pensado para você."
-        >
-          Especializados e com uma visão 360°, estamos comprometidos em oferecer
-          as melhores soluções jurídicas.
-        </Organisms.Hero>
-        <Organisms.Carousel />
-      </section>
+      <Atoms.FadeContainer>
+        <section className="hero-container">
+          <Organisms.Hero
+            key={"hero"}
+            title="Um hub jurídico completo, pensado para você."
+          >
+            Especializados e com uma visão 360°, estamos comprometidos em
+            oferecer as melhores soluções jurídicas.
+          </Organisms.Hero>
+          <Organisms.Carousel />
+        </section>
+      </Atoms.FadeContainer>
       <Atoms.SalesTitle>Somos especialistas no que fazemos</Atoms.SalesTitle>
       <Molecules.ProofData />
       <Organisms.ContactCard />
-      <Organisms.Review />
+      <Atoms.SalesTitle>Oque dizem nossos clientes</Atoms.SalesTitle>
+      <Organisms.SocialProof />
       <Organisms.RightsCards />
     </>
   );

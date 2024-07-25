@@ -8,4 +8,9 @@ export {
   Paragraph,
   Article,
 } from "./typography";
-export { Container, WrapperMobile, WrapperDesktop } from "./container";
+export {
+  Container,
+  WrapperMobile,
+  WrapperDesktop,
+  FadeContainer,
+} from "./container";

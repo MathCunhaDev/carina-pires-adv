@@ -76,6 +76,7 @@
 
   &-title {
     font-size: 2.4vw;
+    font-family: var(--marcellus);
   }
 
   &-text {
@@ -99,10 +100,12 @@
     &-title {
       font-size: 1.4vw;
       margin-bottom: 20px;
+      font-family: var(--marcellus);
     }
 
     &-text {
       font-size: 1vw;
+      font-family: var(--dmsans);
     }
   }
 }

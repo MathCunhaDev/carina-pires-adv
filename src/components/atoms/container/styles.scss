@@ -15,6 +15,15 @@
   display: block;
 }
 
+.fade-in-view {
+  opacity: 0;
+  transition: opacity 1s;
+
+  &.visible {
+    opacity: 1;
+  }
+}
+
 @include respond-to(medium) {
   .wrapper-mobile {
     display: block;

@@ -3,7 +3,7 @@ export { Footer } from "./footer";
 export { Hero } from "./hero";
 export { Carousel } from "./carousel";
 export { ContactCard } from "./contactcard";
-export { Review } from "./review";
+export { SocialProof } from "./socialProof";
 export { RightsCards } from "./rightscards";
 export { CaseCards } from "./caseCards";
 export { Collapse } from "./collapse";

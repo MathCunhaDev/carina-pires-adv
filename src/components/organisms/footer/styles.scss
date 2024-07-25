@@ -34,6 +34,7 @@
       text-decoration: none;
       margin-bottom: 30px;
       display: block;
+      font-family: var(--marcellus);
     }
 
     img {
@@ -52,6 +53,7 @@
     a {
       color: rgb(184, 184, 184);
       text-decoration: none;
+      font-family: var(--dmsans);
     }
   }
 
@@ -92,7 +94,7 @@
     color: white;
     font-size: 20px;
     line-height: 120%;
-    font-family: var(--cinzel);
+    font-family: var(--marcellus);
   }
 
   &-bottom {

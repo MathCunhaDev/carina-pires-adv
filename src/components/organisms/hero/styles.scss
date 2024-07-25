@@ -27,7 +27,7 @@
     height: unset;
     display: flex;
     align-items: center;
-    margin: 30px 5%;
+    margin: 60px 5%;
 
     &-title {
       font-size: 32px;
@@ -42,4 +42,8 @@
       margin: 30px 5%;
     }
   }
+}
+
+.teste {
+  fill: red;
 }

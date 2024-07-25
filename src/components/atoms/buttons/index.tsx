@@ -24,7 +24,7 @@ export function ContactButton({
         sendGTMEvent({ event: eventName, value: "clicked" });
       }}
     >
-      <span className="contact-button-icon">{icon}</span>
+      {icon}
       <a
         href="https://wa.me/989288588"
         target="_blank"

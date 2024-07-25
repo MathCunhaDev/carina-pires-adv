@@ -1,45 +1,47 @@
-import handcuffs from "/public/handcuffs.svg";
-import cash from "/public/cash.svg";
-import family from "/public/family.svg";
-import house from "/public/house.svg";
-import worker from "/public/worker.svg";
-import law from "/public/law.svg";
-import peace from "/public/peace.svg";
+import {
+  faHandcuffs,
+  faMoneyBill,
+  faPeopleRoof,
+  faHouse,
+  faPersonDigging,
+  faScaleBalanced,
+  faPeace,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const whatWeDoItems = [
   {
     text: "Direito Criminal",
     link: "/direito-criminal",
-    icon: handcuffs,
+    icon: faHandcuffs,
   },
   {
     text: "Direito Bancário",
     link: "/direito-bancario",
-    icon: cash,
+    icon: faMoneyBill,
   },
   {
     text: "Direito Família",
     link: "/direito-familiar",
-    icon: family,
+    icon: faPeopleRoof,
   },
   {
     text: "Direito Imobiliário ",
     link: "/direito-imobiliario",
-    icon: house,
+    icon: faHouse,
   },
   {
     text: "Direito Trabalhista",
     link: "/direito-trabalhista",
-    icon: worker,
+    icon: faPersonDigging,
   },
   {
     text: "Direito Cível",
     link: "/direito-civil",
-    icon: law,
+    icon: faScaleBalanced,
   },
   {
     text: "Direito Canábico",
     link: "/direito-canabico",
-    icon: peace,
+    icon: faPeace,
   },
 ];

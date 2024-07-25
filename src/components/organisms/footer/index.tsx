@@ -35,7 +35,7 @@ export function Footer() {
             <ContactButton
               key={"footer"}
               type="blue"
-              icon={<WhatsAppOutlined />}
+              icon={<WhatsAppOutlined style={{ color: "white" }} />}
               eventName="footer"
             >
               Entre em contato
