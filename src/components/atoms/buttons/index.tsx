@@ -26,7 +26,7 @@ export function ContactButton({
     >
       {icon}
       <a
-        href="https://wa.me/989288588"
+        href="https://wa.me/+5511989288588"
         target="_blank"
         className="contact-button-text"
       >
