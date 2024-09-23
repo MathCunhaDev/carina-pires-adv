@@ -1,4 +1,4 @@
-export { ContactButton } from "./buttons";
+export { ContactButton, LandingButton } from "./buttons";
 export {
   SalesTitle,
   MainTitle,
@@ -7,10 +7,16 @@ export {
   AnchorsTitle,
   Paragraph,
   Article,
+  LandingHeroSubtitle,
+  LandingHeroTitle,
+  LandingSubtitle,
+  LandingText,
 } from "./typography";
 export {
   Container,
   WrapperMobile,
   WrapperDesktop,
   FadeContainer,
+  ContainerByWidth,
 } from "./container";
+export { Divider } from "./divider";

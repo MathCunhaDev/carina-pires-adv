@@ -1,0 +1,18 @@
+.landing-footer {
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #23120e;
+
+  &-text {
+    color: #fff;
+    text-align: center;
+    font-family: var(--inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.83px;
+  }
+}

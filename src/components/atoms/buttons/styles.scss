@@ -1,3 +1,5 @@
+@import "../../../common/theme/mixins.scss";
+
 .blue {
   background: #001734;
   transition: background 0.2s ease-in-out;
@@ -44,6 +46,56 @@
   &-icon {
     svg {
       fill: white;
+    }
+  }
+}
+
+.landing-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+
+  a {
+    width: fit-content;
+    padding: 18px 82px;
+    font-family: var(--inter);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  &.primary {
+    background: linear-gradient(90deg, #4e281f 0%, #7c453a 100%);
+
+    a {
+      color: #d4c2ac;
+    }
+  }
+
+  &.secondary {
+    background: linear-gradient(90deg, #4e281f 0%, #7c453a 100%);
+
+    a {
+      color: white;
+    }
+  }
+}
+
+@include respond-to(medium) {
+  .landing-button {
+    width: 90%;
+    max-width: 90%;
+
+    a {
+      font-size: 16px;
+      padding: 10px 52px;
     }
   }
 }

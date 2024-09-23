@@ -1,0 +1,60 @@
+@import "../../../common/theme/mixins.scss";
+
+.landing-hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("/landing-hero-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+
+  &-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 1140px;
+  }
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-left {
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+  }
+
+  &-right {
+    display: flex;
+    width: calc(100% - 453px);
+  }
+
+  &-texts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@include respond-to(medium) {
+  .landing-hero {
+    align-items: flex-start;
+    background-image: url("/landing-hero-mobile.png");
+
+    &-container {
+      max-width: 90%;
+      margin-top: 50px;
+    }
+
+    &-left {
+      width: 100%;
+      align-items: center;
+      row-gap: 14px;
+    }
+  }
+}

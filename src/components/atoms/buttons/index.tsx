@@ -10,6 +10,11 @@ interface IContactButton {
   eventName: string;
 }
 
+interface ILandingButton {
+  type: "primary" | "secondary";
+  children: string;
+}
+
 export function ContactButton({
   children,
   type,
@@ -29,6 +34,20 @@ export function ContactButton({
         href="https://wa.me/+5511989288588"
         target="_blank"
         className="contact-button-text"
+      >
+        {children}
+      </a>
+    </button>
+  );
+}
+
+export function LandingButton({ children, type }: ILandingButton) {
+  return (
+    <button type="button" className={`landing-button ${type}`}>
+      <a
+        href="https://wa.me/+5511989288588"
+        target="_blank"
+        className="landing-button-text"
       >
         {children}
       </a>

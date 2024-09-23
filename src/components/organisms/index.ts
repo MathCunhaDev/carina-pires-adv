@@ -7,3 +7,7 @@ export { SocialProof } from "./socialProof";
 export { RightsCards } from "./rightscards";
 export { CaseCards } from "./caseCards";
 export { Collapse } from "./collapse";
+export { LandingCard } from "./landingCard";
+export { LandingHero } from "./landingHero";
+export { LandingProofCard } from "./landingProofCard";
+export { landingFaq } from "./landingFaq";

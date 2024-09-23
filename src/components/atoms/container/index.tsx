@@ -35,3 +35,7 @@ export function FadeContainer({ children }: IContainer) {
     </section>
   );
 }
+
+export function ContainerByWidth({ children }: IContainer) {
+  return <section className="container-by-width">{children}</section>;
+}
