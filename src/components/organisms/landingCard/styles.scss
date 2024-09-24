@@ -109,4 +109,14 @@
       padding: 10px 0 40px 0;
     }
   }
+
+  .portrait {
+    max-height: unset;
+    justify-content: center;
+
+    img {
+      width: 90%;
+      max-height: unset;
+    }
+  }
 }

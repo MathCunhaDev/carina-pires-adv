@@ -1,10 +1,16 @@
+"use client";
+
 import { crimeLandingCards } from "@/constants/crimeLandingCards";
-import retrato from "/public/background-retrato.png";
+import retratoMobile from "/public/background-retrato-mobile.png";
+import retratoDesktop from "/public/background-retrato.png";
+import useIsMobile from "@/hooks/useIsMobile";
 import Image from "next/image";
 import * as Atoms from "@/components/atoms";
 import "./styles.scss";
 
 export function LandingCard() {
+  const isMobile = useIsMobile();
+
   return (
     <>
       <section className="landing-card-container">
@@ -32,7 +38,10 @@ export function LandingCard() {
         <Atoms.LandingButton type="secondary">AGENDE AGORA</Atoms.LandingButton>
       </section>
       <section className="portrait">
-        <Image src={retrato} alt="Imagem da advogada" />
+        <Image
+          src={isMobile ? retratoMobile : retratoDesktop}
+          alt="Imagem da advogada"
+        />
       </section>
     </>
   );
