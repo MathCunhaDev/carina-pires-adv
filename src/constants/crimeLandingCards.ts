@@ -18,59 +18,45 @@ export interface CrimeLandingCardsProps {
 
 export const crimeLandingCards: CrimeLandingCardsProps[] = [
   {
-    image: Image1,
-    title: "Crimes cometidos por funcionários públicos:",
-    cases: ["Crime praticado por funcionário público"],
-  },
-  {
-    image: Image2,
-    title: "Prisão e medidas relacionadas:",
-    cases: [
-      "Prisão em flagrante e prisão preventiva",
-      "Liberdade provisória e medidas cautelares",
-    ],
-  },
-  {
     image: Image3,
-    title: "Instrução processual e recursos criminais:",
+    title: "Crimes Contra a Honra:",
     cases: [
-      "Estratégia sólida e revisão criteriosa em todas as fases do processo, buscando sempre o melhor resultado.",
+      "Especialistas em defesa contra calúnia, difamação e injúria. Defenda sua honra com o suporte de uma equipe altamente qualificada.",
     ],
   },
   {
     image: Image4,
-    title: "Acordos de colaboração premiada e não persecução penal:",
+    title: "Crimes Patrimoniais:",
     cases: [
-      "Soluções eficazes e benefícios maximizados em situações complexas antes do julgamento.",
+      "Defesa experiente em casos de roubo, furto, estelionato e outros crimes contra o patrimônio. Garantimos uma atuação precisa e eficaz para resguardar seus direitos.",
     ],
   },
   {
     image: Image5,
-    title: "Execução e revisão criminal:",
+    title: "Crimes Sexuais:",
     cases: [
-      "Defesa contínua e reabertura de processos para corrigir injustiças e garantir seus direitos.",
+      "Especialização em defesa de casos complexos como estupro e assédio sexual, com garantia de confidencialidade e abordagem técnica. Buscamos a melhor estratégia para o seu caso.",
     ],
   },
   {
     image: Image6,
-    title: "Assistência à vítima:",
+    title: "Direito Penal Preventivo:",
     cases: [
-      "Apoio jurídico completo para vítimas de crimes, garantindo que a justiça seja feita.",
+      "Estratégias jurídicas para evitar que situações de risco se transformem em processos criminais. Conte com defesa legal especializada para proteger sua integridade e reputação desde o início.",
     ],
   },
   {
-    image: Image7,
-    title: "Crimes contra a ordem pública:",
-    cases: ["Organização criminosa", "Tráfico de drogas"],
-  },
-  {
     image: Image8,
-    title: "Crimes contra a pessoa:",
-    cases: ["Violência doméstica", "Crimes contra a honra"],
+    title: "Crimes Contra a Vida:",
+    cases: [
+      "Atuação estratégica e experiente em casos de homicídio, tentativa de homicídio e lesão corporal.",
+    ],
   },
   {
     image: Image9,
-    title: "Crimes econômicos e financeiros:",
-    cases: ["Lavagem de dinheiro", "Crime tributário"],
+    title: "Crimes Econômicos:",
+    cases: [
+      "Defesa robusta em casos de corrupção, lavagem de dinheiro e outros crimes econômicos. Expertise jurídica para lidar com casos de alta complexidade.",
+    ],
   },
 ];

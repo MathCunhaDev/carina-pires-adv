@@ -24,7 +24,7 @@
 
   &-item {
     width: 273px;
-    height: 410px;
+    height: 460px;
     display: flex;
     border-radius: 7px;
     background: #4e281f;
@@ -53,7 +53,7 @@
   &-item-title {
     color: #fff;
     text-align: center;
-    font-family: Folktune;
+    font-family: var(--folkTune), sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

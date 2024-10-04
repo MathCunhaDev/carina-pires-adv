@@ -3,8 +3,15 @@ import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { Inter } from "next/font/google";
 import { PropsWithChildren } from "react";
 import { Metadata } from "next";
+import localFont from "next/font/local";
 import "@/common/theme/reset.scss";
 import "@/common/theme/global.scss";
+
+const folkTune = localFont({
+  src: "../../public/Folktune.otf",
+  display: "swap",
+  variable: "--folkTune",
+});
 
 const inter = Inter({
   weight: ["300", "400", "700"],
@@ -47,7 +54,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="pt-BR" className={`${inter.variable}`}>
+    <html lang="pt-BR" className={`${inter.variable} ${folkTune.variable}`}>
       <GoogleAnalytics gaId="G-6DQ5X9MC0Y" />
       <body>
         <main className="main">
