@@ -148,6 +148,11 @@
     }
   }
 
+  .landing-hero-subtitle,
+  .landing-hero-subtitle span {
+    margin-top: 8px;
+  }
+
   .landing-subtitle {
     font-size: 30px;
     text-align: center;
@@ -157,5 +162,6 @@
   .landing-text {
     font-size: 12px;
     text-align: center;
+    line-height: 20px;
   }
 }
