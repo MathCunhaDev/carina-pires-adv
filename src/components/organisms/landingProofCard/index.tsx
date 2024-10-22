@@ -1,4 +1,4 @@
-import { carouselLandingItems } from "@/constants/carouselLandingItems";
+import { SocialProofsData } from "@/constants/socialProofsData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { Carousel as AntdCarousel } from "antd";
@@ -32,7 +32,7 @@ export function LandingProofCard() {
             },
           ]}
         >
-          {carouselLandingItems.map((item: any, index: number) => (
+          {SocialProofsData.map((item: any, index: number) => (
             <section className="landing-proof-item" key={index}>
               <h2 className="landing-proof-item-name">{item.name}</h2>
               <p className="landing-proof-item-text">{item.text}</p>
